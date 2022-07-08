@@ -13,4 +13,6 @@ jobs:
     steps:
       - name: Deploy in Env
         run: |
-          echo "Hello world"
+          echo "Hello world: $AZURE_SECRET"
+        with:
+          AZURE_SECRET: ${{ secrets.AZURE_SECRET }}
