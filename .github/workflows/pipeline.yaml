@@ -18,3 +18,4 @@ jobs:
         env:
           AZURE_SECRET: ${{ secrets.AZURE_SECRET }}
           AZURE_SECRET2: ${{ secrets.AZURE_SECRET2 }}
+
