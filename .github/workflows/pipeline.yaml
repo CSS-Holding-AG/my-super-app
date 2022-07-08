@@ -14,5 +14,6 @@ jobs:
       - name: Deploy in Env
         run: |
           echo "Hello world: $AZURE_SECRET"
+          env
         env:
           AZURE_SECRET: ${{ secrets.AZURE_SECRET }}
